@@ -17,7 +17,7 @@ class Config:
     lowercase: bool = True
 
     # seq2seq / attention
-    emb_dim: int = 256
+    emb_dim: int = 512
     hid_dim: int = 512
     num_layers: int = 2
     dropout_rnn: float = 0.3
